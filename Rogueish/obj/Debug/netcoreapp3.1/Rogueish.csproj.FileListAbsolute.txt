@@ -1,0 +1,14 @@
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.csproj.AssemblyReference.cache
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.GeneratedMSBuildEditorConfig.editorconfig
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.AssemblyInfoInputs.cache
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.AssemblyInfo.cs
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.csproj.CoreCompileInputs.cache
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish.deps.json
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish.runtimeconfig.json
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish.runtimeconfig.dev.json
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish.dll
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/bin/Debug/netcoreapp3.1/Rogueish.pdb
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.dll
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.pdb
+/Users/scottg/Projects/App Projects/practice/console-Rogueish/Rogueish/obj/Debug/netcoreapp3.1/Rogueish.genruntimeconfig.cache
