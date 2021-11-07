@@ -20,6 +20,7 @@ namespace Rogueish
         static void FrameLoop()
         {
             ConsoleKey input;
+            bool quit = false;
             do
             {
                 input = Console.ReadKey(true).Key;
@@ -28,12 +29,12 @@ namespace Rogueish
                 Console.Clear();
                 Console.WriteLine("ROGUE-ISH");// later can be updateScreen() and updateUI()
 
-                Controls(input);
+                Controls(input, ref quit);
             }
-            while (input != ConsoleKey.Escape);
+            while (!quit);
         }
 
-        static void Controls(ConsoleKey input)
+        static void Controls(ConsoleKey input, ref bool quit)
         {
             /*
              * Add keyboard inputs here and their corresponding action()
@@ -56,6 +57,9 @@ namespace Rogueish
                     break;
                 case ConsoleKey.Spacebar:
                     Console.WriteLine("Attack");//later these instead call some action()
+                    break;
+                case ConsoleKey.Escape://this control will terminate the main loop and end the game
+                    quit = true;
                     break;
                 default:
                     break;
