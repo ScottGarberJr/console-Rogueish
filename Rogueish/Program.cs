@@ -8,16 +8,18 @@ namespace Rogueish
         static void Main(string[] args)
         {
             
-            GameSetup();
-            FrameLoop();
+            Map map = GameSetup();
+            map.Update();
+            FrameLoop(ref map);
         }
 
-        static void GameSetup()
+        static Map GameSetup()
         {
             Console.WriteLine("ROGUE-ISH");// later can be updateScreen() and updateUI()
+            return new Map("test");
         }
 
-        static void FrameLoop()
+        static void FrameLoop(ref Map map)
         {
             ConsoleKey input;
             bool quit = false;
@@ -28,6 +30,7 @@ namespace Rogueish
 
                 Console.Clear();
                 Console.WriteLine("ROGUE-ISH");// later can be updateScreen() and updateUI()
+                map.Update();
 
                 Controls(input, ref quit);
             }
@@ -44,19 +47,19 @@ namespace Rogueish
             switch (input)
             {
                 case ConsoleKey.W:
-                    Console.WriteLine("up");//later these instead call some action()
+                    Console.WriteLine("up");//tests input
                     break;
                 case ConsoleKey.A:
-                    Console.WriteLine("left");//later these instead call some action()
+                    Console.WriteLine("left");//tests input
                     break;
                 case ConsoleKey.S:
-                    Console.WriteLine("down");//later these instead call some action()
+                    Console.WriteLine("down");//tests input
                     break;
                 case ConsoleKey.D:
-                    Console.WriteLine("right");//later these instead call some action()
+                    Console.WriteLine("right");//tests input
                     break;
                 case ConsoleKey.Spacebar:
-                    Console.WriteLine("Attack");//later these instead call some action()
+                    Console.WriteLine("Attack");//tests input
                     break;
                 case ConsoleKey.Escape://this control will terminate the main loop and end the game
                     quit = true;
